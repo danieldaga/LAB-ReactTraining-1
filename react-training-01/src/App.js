@@ -1,4 +1,5 @@
 import './App.css';
+import Greetings from './components/Greetings/Greetings';
 import IdCard from './components/IdCard/IdCard';
 
 
@@ -21,7 +22,13 @@ function App() {
         // birth={new Date('1985-05-12')}
         picture='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRsD33LBMW7PkAboAxNA0Z6tfIl8HkaOK05FnQII_9n5jRtuVHKJ0Rjb_y1_nRFqxHpIo&usqp=CAU'
       />
+
+      <Greetings lang="de">Nelson</Greetings>
+      <Greetings lang="fr">Angel</Greetings>
+
     </>
+
+
   )
 }
 
