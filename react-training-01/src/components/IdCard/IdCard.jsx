@@ -1,13 +1,16 @@
+import './IdCard.css'
 const IdCard =({firstName, lastName, gender, height, birth,picture})=>{
     return(
-    <div>
-        <div className="img-person"><img src={picture} alt="" /></div>
+    <div className='container'>
+        <div className="img-person"><img src={picture} alt="" width='100px'/></div>
         <div className="data">
-            <h4><b>First name: </b>{firstName}</h4><br/>
-            <h4><b>Last name: </b>{lastName}</h4><br/>
-            <h4><b>gender: </b>{gender}</h4><br/>
-            <h4><b>height: </b>{height}</h4><br/>
-            <h4><b>birth: </b>{birth}</h4>
+            <p>
+                <span>First name: </span>{firstName} <br />
+                <span>Last name: </span>{lastName}<br />
+                <span>gender: </span>{gender}<br />
+                <span>height: </span>{height}<br />
+                <span>birth: </span>{birth}
+            </p>
         </div>
     </div>
     )
