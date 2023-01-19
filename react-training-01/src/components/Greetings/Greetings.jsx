@@ -1,15 +1,18 @@
+import './Greetings.css'
+
+
 const Greetings = ({lang}) =>{
     if (lang==="de") {
         return(
-        <h4 className="container">
+        <h2 className="container-greetings">
             Hallo {lang.children}
-        </h4>
+        </h2>
         )
     }else if(lang==="fr"){
         return(
-            <h4 className="container">
+        <h2 className="container-greetings">
             Bonjour {lang.children}
-        </h4>
+        </h2>
         )
     }
 }
