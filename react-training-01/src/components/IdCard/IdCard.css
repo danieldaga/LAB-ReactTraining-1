@@ -8,4 +8,7 @@
 .span{
     font-weight: bold;
 }
-
+.img-person img{
+    width: 100px;
+    height: 150px;
+}
