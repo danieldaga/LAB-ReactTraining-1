@@ -10,16 +10,16 @@ function App() {
         lastName='Rodriguez'
         firstName='Angel'
         gender='male'
-        height={178}
-        birth='1985-05-12'
+        height={1.78}
+        birth={(new Date("1875-03-09")).toLocaleDateString('en-us', { weekday:"short",month:"short", day:"numeric", year:"numeric"})}
         picture='https://www.looper.com/img/gallery/the-one-regret-the-writers-have-about-the-simpsons-movie/l-intro-1641663043.jpg'
       />
       <IdCard
         lastName='Martinez'
         firstName='Nelson'
         gender='Trans'
-        height={145}
-        birth='1999-12-2'
+        height={1.45}
+        birth={(new Date("1999-12-02")).toLocaleDateString('en-us', { weekday:"short",month:"short", day:"numeric", year:"numeric"})}
         picture='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRsD33LBMW7PkAboAxNA0Z6tfIl8HkaOK05FnQII_9n5jRtuVHKJ0Rjb_y1_nRFqxHpIo&usqp=CAU'
       />
       <br />
@@ -27,6 +27,8 @@ function App() {
       <br />
       <Greetings lang="de">Nelson</Greetings>
       <Greetings lang="fr">Angel</Greetings>
+      <Greetings lang="es">Pablo</Greetings>
+      <Greetings lang="en">Dani</Greetings>
       <br />
       <hr />
       <br />

@@ -14,6 +14,18 @@ const Greetings = (props) =>{
             Bonjour {props.children}
         </h2>
         )
+    }else if(props.lang==="en"){
+        return(
+        <h2 className="container-greetings">
+            Hello {props.children}
+        </h2>
+        )
+    }else if(props.lang==="es"){
+        return(
+        <h2 className="container-greetings">
+            Hola {props.children}
+        </h2>
+        )
     }
 }
 
