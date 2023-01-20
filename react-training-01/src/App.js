@@ -5,7 +5,7 @@ import Random from './components/Random/Random';
 
 function App() {
   return (
-    <>
+    <div className='container-app'>
       <IdCard
         lastName='Rodriguez'
         firstName='Angel'
@@ -35,7 +35,7 @@ function App() {
       <Random min={1} max={6} />
       <Random min={1} max={100} />
 
-    </>
+    </div>
 
 
   )
