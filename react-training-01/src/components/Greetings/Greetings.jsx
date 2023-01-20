@@ -1,17 +1,17 @@
 import './Greetings.css'
 
 
-const Greetings = ({lang}) =>{
-    if (lang==="de") {
+const Greetings = (props) =>{
+    if (props.lang==="de") {
         return(
         <h2 className="container-greetings">
-            Hallo {lang.children}
+            Hallo {props.children}
         </h2>
         )
-    }else if(lang==="fr"){
+    }else if(props.lang==="fr"){
         return(
         <h2 className="container-greetings">
-            Bonjour {lang.children}
+            Bonjour {props.children}
         </h2>
         )
     }

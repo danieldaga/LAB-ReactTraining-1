@@ -22,14 +22,14 @@ function App() {
         // birth={new Date('1985-05-12')}
         picture='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRsD33LBMW7PkAboAxNA0Z6tfIl8HkaOK05FnQII_9n5jRtuVHKJ0Rjb_y1_nRFqxHpIo&usqp=CAU'
       />
-      <br/>
-      <hr/>
-      <br/>
+      <br />
+      <hr />
+      <br />
       <Greetings lang="de">Nelson</Greetings>
       <Greetings lang="fr">Angel</Greetings>
-      <br/>
-      <hr/>
-      <br/>
+      <br />
+      <hr />
+      <br />
       <Random min={1} max={6} />
       <Random min={1} max={100} />
 
