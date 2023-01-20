@@ -3,7 +3,7 @@ const IdCard =({firstName, lastName, gender, height, picture, birth})=>{
 
     return(
     <div className='container'>
-        <div className="img-person"><img src={picture} alt=""/></div>
+        <div className="img-person"><img src={picture} alt={firstName}/></div>
         <div className="data">
             <p>
                 <b>First name: </b>{firstName} <br />
