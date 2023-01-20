@@ -40,10 +40,15 @@ function App() {
       <br />
       <hr />
       <br />
-      <BoxColor r={0} g={0} b={253} />
-      <BoxColor r={255} g={255} b={35} />
+      <div className='color-box-all'>
+        <BoxColor r={0} g={0} b={253} />
+        <BoxColor r={255} g={255} b={35} />
 
-      <RandomBoxColor />
+        <RandomBoxColor />
+      </div>
+      <br />
+      <hr />
+      <br />
 
 
     </div>

@@ -1,3 +1,7 @@
 .container-app{
   width: 600px;
 }
+.color-box-all{
+  display: flex;
+  flex-direction: row;
+}
