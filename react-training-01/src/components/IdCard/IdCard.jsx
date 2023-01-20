@@ -1,5 +1,5 @@
 import './IdCard.css'
-const IdCard =({firstName, lastName, gender, height, picture})=>{
+const IdCard =({firstName, lastName, gender, height, picture, birth})=>{
     // new Date(year, month, day)
     return(
     <div className='container'>
@@ -9,8 +9,8 @@ const IdCard =({firstName, lastName, gender, height, picture})=>{
                 <b>First name: </b>{firstName} <br />
                 <b>Last name: </b>{lastName}<br />
                 <b>gender: </b>{gender}<br />
-                <b>height: </b>{height}<br />
-                <b>birth: </b>{}
+                <b>height: </b>{height}cm<br />
+                <b>birth: </b>{birth}
             </p>
         </div>
     </div>

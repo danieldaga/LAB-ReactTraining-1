@@ -10,5 +10,6 @@
 }
 .img-person img{
     width: 100px;
-    height: 150px;
+    height: 110px;
+    margin:10px;
 }
