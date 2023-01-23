@@ -2,9 +2,9 @@ import './App.css';
 import BoxColor from './components/BoxColor/BoxColor';
 import Greetings from './components/Greetings/Greetings';
 import IdCard from './components/IdCard/IdCard';
+import LikeButton from './components/LikeButton';
 import Random from './components/Random/Random';
 import RandomBoxColor from './components/RandomBoxColor/RandomBoxColor';
-
 
 function App() {
   return (
@@ -49,7 +49,9 @@ function App() {
       <br />
       <hr />
       <br />
-    
+      <div className='button-container'>
+        <LikeButton />
+      </div>
 
     </div>
 
