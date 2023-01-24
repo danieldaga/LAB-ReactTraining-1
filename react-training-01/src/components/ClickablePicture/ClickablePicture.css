@@ -1,0 +1,25 @@
+.alfredo{
+z-index: -1;
+}
+/* .glasses-alfredo{
+    position: absolute;
+    top: 1220px;
+    left : 220px;
+    z-index: 1;
+    width: 180px;
+    height: 100px;
+} */
+
+.notView{
+    
+    display: none;
+}
+.view{
+    position: absolute;
+    display: block;
+    top: 1220px;
+    left : 220px;
+    z-index: 1;
+    width: 180px;
+    height: 100px;
+}

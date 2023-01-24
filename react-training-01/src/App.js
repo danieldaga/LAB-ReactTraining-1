@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import './App.css';
 import BoxColor from './components/BoxColor/BoxColor';
+import ClickablePicture from './components/ClickablePicture/ClickablePicture';
 import Greetings from './components/Greetings/Greetings';
 import IdCard from './components/IdCard/IdCard';
-import LikeButton from './components/LikeButton';
+import LikeButton from './components/LikeButton/LikeButton';
 import Random from './components/Random/Random';
 import RandomBoxColor from './components/RandomBoxColor/RandomBoxColor';
-
+import pictureAlfredo from './assets/img/alfredo.png'
+import pictureGlasses from "./assets/img/alfredo-glasses.png";
 
 function App() {
   return (
@@ -45,7 +47,6 @@ function App() {
       <div className='color-box-all'>
         <BoxColor r={0} g={0} b={253} />
         <BoxColor r={255} g={255} b={35} />
-
         <RandomBoxColor />
       </div>
       <br />
@@ -57,6 +58,11 @@ function App() {
       <br />
       <hr />
       <br />
+        <ClickablePicture picture={pictureAlfredo} glasses={pictureGlasses}/>
+      <br />
+      <hr />
+      <br />
+      
     </div>
 
 
