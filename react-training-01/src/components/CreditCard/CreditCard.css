@@ -1,0 +1,9 @@
+.card-container{
+    width: 350px;
+    height: 180px;
+    border-radius: 30px;
+    margin: 40px;
+}
+.card-container img{
+    width: 60px;
+}

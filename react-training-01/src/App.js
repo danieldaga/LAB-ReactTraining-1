@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import BoxColor from './components/BoxColor/BoxColor';
 import ClickablePicture from './components/ClickablePicture/ClickablePicture';
@@ -9,8 +8,9 @@ import Random from './components/Random/Random';
 import RandomBoxColor from './components/RandomBoxColor/RandomBoxColor';
 import pictureAlfredo from './assets/img/alfredo.png'
 import pictureGlasses from "./assets/img/alfredo-glasses.png";
-import Carousel from './components/Carousel/Carousel';
-
+import CreditCard from './components/CreditCard/CreditCard';
+import MasterCard from "./assets/img/logoMC.svg";
+import Visa from "./assets/img/logoVisa.png";
 
 function App() {
   return (
@@ -54,6 +54,32 @@ function App() {
       <br />
       <hr />
       <br />
+      <div className='credit-card'>
+        <CreditCard
+          type={Visa}
+          number="0123456789018845"
+          expirationMonth={3}
+          expirationYear={2021}
+          bank="BNP"
+          owner="Maxence Bouret"
+          bgColor="#11aa99"
+          color="white"
+        />
+
+        <CreditCard
+          type={MasterCard}
+          number="0123456789010995"
+          expirationMonth={3}
+          expirationYear={2021}
+          bank="N26"
+          owner="Maxence Bouret"
+          bgColor="#eeeeee"
+          color="#222222"
+        />
+      </div>
+      <br />
+      <hr />
+      <br />
       <div className='button-container'>
         <LikeButton />
       </div>
@@ -64,7 +90,7 @@ function App() {
       <br />
       <hr />
       <br />
-      
+
     </div>
   )
 }
