@@ -11,6 +11,7 @@ import pictureGlasses from "./assets/img/alfredo-glasses.png";
 import CreditCard from './components/CreditCard/CreditCard';
 import MasterCard from "./assets/img/logoMC.svg";
 import Visa from "./assets/img/logoVisa.png";
+import Rating from './components/Rating/Rating';
 
 function App() {
   return (
@@ -80,6 +81,15 @@ function App() {
       <br />
       <hr />
       <br />
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
+      <br />
+      <hr />
+      <br />
       <div className='button-container'>
         <LikeButton />
       </div>
@@ -91,6 +101,9 @@ function App() {
       <hr />
       <br />
 
+      <br />
+      <hr />
+      <br />
     </div>
   )
 }
