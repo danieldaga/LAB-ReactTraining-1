@@ -5,8 +5,7 @@ import './LikeButton.css'
 const LikeButton = () =>{
     const [count,setCount] = useState(0)
     const [color, setColor] = useState(0)
-
-
+    
     const colorsButton = ['purple','blue','green','yellow','orange','red']
     return(
         <button 
