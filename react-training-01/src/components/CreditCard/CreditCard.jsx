@@ -4,7 +4,7 @@ const CreditCard = ({type, number, expirationMonth, expirationYear, bank, owner,
     
     return(
         <div className='card-container' style={{ backgroundColor: `${bgColor}`}}>
-            <div><img src={type} alt="type" /></div>
+            <div className='card-img'><img src={type} alt="type" /></div>
             <h3>{number}</h3>
             <div>
                 <p>Expires {expirationMonth}/{expirationYear}     {bank}</p>
