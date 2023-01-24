@@ -1,4 +1,22 @@
+.driver-contain{
+    text-align: center;
+    display: inline-flex;
+    margin: 40px;
+    border-radius: 20px;
+    background-color: #455EB5;
+    width: 580px;
+    height: 180px;
+    color: antiquewhite;
+}
+
 .driver-pilot-img{
-    width: 70px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
+    margin: 40px 10px 0 140px;
+    border-radius: 50px;
+    
+}
+
+.driver-pilot{
+    margin: 25px 0 25px 0px;
 }
